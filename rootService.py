@@ -15,7 +15,7 @@ class Distribution_Service():
         try:
             self.service = random.choice(self.services)
             exec(f'self.number_attack.{self.service}()')
-            print(Fore.BLUE + f'[+] SMS GÖNDERİLDİ ~ ROOT.EX [+]{self.service}')
+            print(Fore.PURPLE + f'[+] SMS GÖNDERİLDİ ~ ROOT.EX [+]{self.service}')
 
         except Exception as ex:
           pass
